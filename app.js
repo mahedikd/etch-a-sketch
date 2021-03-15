@@ -20,7 +20,9 @@ function gridFill(fill) {
 		const elem = document.createElement("div");
 		elem.className = "grid-element";
 		elem.addEventListener("mouseover", changeColor);
+		elem.addEventListener("touchmove", changeColor);
 		elem.addEventListener("mouseout", StopSound);
+		elem.addEventListener("touchend", StopSound);
 		gridContainer.appendChild(elem);
 	}
 }
