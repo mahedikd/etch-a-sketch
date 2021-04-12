@@ -1,2 +1,2 @@
 # Etch-a-Sketch
-JavaScript Project from The Odin Project
+JavaScript Project from "The Odin Project"
